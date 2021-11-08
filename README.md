@@ -24,7 +24,7 @@
  - O sensor dht11 está sendo lido no pino digital 9;
  - A leitura do sensor está dentro da função readSensors() que está sendo chamada dentro do loop;
 ### Esquemático
-! [esquematico_dht11] (/Tracker/Images/esquematico_dht11.png)
+! [esquematico_dht11] (/Images/esquematico_dht11.png)
 
 NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
 
