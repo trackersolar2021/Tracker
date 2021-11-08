@@ -1,6 +1,7 @@
 # Tracker
 ## Circuito completo
-![TCC](Images/TCC.png)
+![TCC](Images/TCC.PNG)
+
 ## Pinos utilizados
  - DHT11 = pino digital 9
  - Sensor de tensão tracker = pino analogico A8
