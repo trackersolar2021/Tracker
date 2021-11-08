@@ -1,28 +1,28 @@
 # Tracker
 
 ## Pinos utilizados
- -DHT11 = pino digital 9
- -Sensor de tensão tracker = pino analogico A8
- -Sensor de tensão fixo = pino analogico A9
- -Sensor de tensão motor = pino analogico A10
- -Sensor de corrente tracker = pino analogico A3
- -Sensor de corrente fixo = pino analogico A4
- -Sensor de corrente motor = pino analogico A5
- -Fim de curso 1 = pino digital 2
- -Fim de curso 2 = pino digital 3
- -RTC SDA = pino digital 20
- -RTC SLC = pino digital 21
- -Motor step = pino digital 7
- -Motor dir = pino digital 8
- -LDR esquerda baixo = pino analógico A12;
- -LDR esquerda topo = pino analógico A15;
- -LDR direita baixo = pino analógico A13;
- -LDR direita topo = pino analógico A14;
+ - DHT11 = pino digital 9
+ - Sensor de tensão tracker = pino analogico A8
+ - Sensor de tensão fixo = pino analogico A9
+ - Sensor de tensão motor = pino analogico A10
+ - Sensor de corrente tracker = pino analogico A3
+ - Sensor de corrente fixo = pino analogico A4
+ - Sensor de corrente motor = pino analogico A5
+ - Fim de curso 1 = pino digital 2
+ - Fim de curso 2 = pino digital 3
+ - RTC SDA = pino digital 20
+ - RTC SLC = pino digital 21
+ - Motor step = pino digital 7
+ - Motor dir = pino digital 8
+ - LDR esquerda baixo = pino analógico A12
+ - LDR esquerda topo = pino analógico A15
+ - LDR direita baixo = pino analógico A13
+ - LDR direita topo = pino analógico A14
 
 ## DHT11
- -Foi utilizado a biblioteca dht11 para facilitar a leitura da umidade e temperatura;
- -O sensor dht11 está sendo lido no pino digital 9;
- -A leitura do sensor está dentro da função readSensors() que está sendo chamada dentro do loop;
+ - Foi utilizado a biblioteca dht11 para facilitar a leitura da umidade e temperatura;
+ - O sensor dht11 está sendo lido no pino digital 9;
+ - A leitura do sensor está dentro da função readSensors() que está sendo chamada dentro do loop;
 
 ### Esquemático
 
@@ -30,13 +30,13 @@
 NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
 
 ## Sensor de Tensão
- -Foi utilizado um divisor de tensão que permite ler uma tensão de até 60V;
- -Para esse circuito foram utilizados um resistor de 220KΩ (R1) e um resistor de 20KΩ (R2);
- -Os sensores de tensão estão conectados nas entradas:
-  -A8: Tracker;
-  -A9: Fixo;
-  -A10: Motor;
- -O valor da tensão é calculado pela função readVoltage
+ - Foi utilizado um divisor de tensão que permite ler uma tensão de até 60V;
+ - Para esse circuito foram utilizados um resistor de 220KΩ (R1) e um resistor de 20KΩ (R2);
+ - Os sensores de tensão estão conectados nas entradas:
+  - A8: Tracker;
+  - A9: Fixo;
+  - A10: Motor;
+ - O valor da tensão é calculado pela função readVoltage
 ## Esquemático
 Esquemático divisor de tensão
 
