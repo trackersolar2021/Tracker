@@ -33,9 +33,9 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
  - Foi utilizado um divisor de tensão que permite ler uma tensão de até 60V;
  - Para esse circuito foram utilizados um resistor de 220KΩ (R1) e um resistor de 20KΩ (R2);
  - Os sensores de tensão estão conectados nas entradas:
-  - A8: Tracker;
-  - A9: Fixo;
-  - A10: Motor;
+   - A8: Tracker;
+   - A9: Fixo;
+   - A10: Motor;
  - O valor da tensão é calculado pela função readVoltage
 ## Esquemático
 Esquemático divisor de tensão
