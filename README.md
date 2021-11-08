@@ -58,28 +58,31 @@ Esquemático sensor de corrente
    const int revolution30Degress = 200
    const int revolution50Degress = 300
    ```
-Armazenamento de dados
-Foi utilizado o cartão SD para o armazenamento de dados;
-Foi utilizado o pino digital 4;
-RTC
-Exclui a implementação utilizando a biblioteca de RTC;
-fiz uma nova implementação utilizando a biblioteca Wire e tratando o valor recebido do RTC com comunicação I2C;
-Ajuste fino
+## Armazenamento de dados
+ - Foi utilizado o cartão SD para o armazenamento de dados;
+ - Foi utilizado o pino digital 4;
+
+## RTC
+ - Exclui a implementação utilizando a biblioteca de RTC;
+ - fiz uma nova implementação utilizando a biblioteca Wire e tratando o valor recebido do RTC com comunicação I2C;
+
+## Ajuste fino
 Esquemático LDR
 
-Para instalar os LDR's é preciso "escolher" quais serão os 2 LDR's da direita e quais serão da esquerda pois o calculo do ajuste fino será comparando os LDR's da direita com os da esquerda;
-No momento da instalação é necessário verificar a direção do motor, pois no código assumi que a direção HIGH é para a direita e a direção LOW é para a esquerda;
-Referências
-dht11: https://create.arduino.cc/projecthub/arcaegecengiz/using-dht11-b0f365
+ - Para instalar os LDR's é preciso "escolher" quais serão os 2 LDR's da direita e quais serão da esquerda pois o calculo do ajuste fino será comparando os LDR's da direita com os da esquerda;
+ - No momento da instalação é necessário verificar a direção do motor, pois no código assumi que a direção HIGH é para a direita e a direção LOW é para a esquerda;
 
-Sensor de tensão: https://br-arduino.org/2015/06/voltimetro-com-arduino-como-montar-programar-e-calibrar.html
+## Referências
+ - dht11: https://create.arduino.cc/projecthub/arcaegecengiz/using-dht11-b0f365
 
-Sensor de corrente: https://www.electronicshub.org/interfacing-acs712-current-sensor-with-arduino/
+ - Sensor de tensão: https://br-arduino.org/2015/06/voltimetro-com-arduino-como-montar-programar-e-calibrar.html
 
-motor : https://www.robocore.net/tutoriais/controlando-motor-de-passo
+ - Sensor de corrente: https://www.electronicshub.org/interfacing-acs712-current-sensor-with-arduino/
 
-Armazenamento de dados: https://scholarslab.lib.virginia.edu/blog/saving-arduino-sensor-data/
+ - Motor : https://www.robocore.net/tutoriais/controlando-motor-de-passo
 
-RTC: http://projectsfromtech.blogspot.com/2013/06/arduino-rtc-tinyrtc-v1-with-arduino.html
+ - Armazenamento de dados: https://scholarslab.lib.virginia.edu/blog/saving-arduino-sensor-data/
 
-LDR: https://www.filipeflop.com/universidade/kit-maker-arduino/projeto-10-sensor-de-luz-ambiente/
+ - RTC: http://projectsfromtech.blogspot.com/2013/06/arduino-rtc-tinyrtc-v1-with-arduino.html
+
+ - LDR: https://www.filipeflop.com/universidade/kit-maker-arduino/projeto-10-sensor-de-luz-ambiente/
