@@ -37,7 +37,7 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
    - A10: Motor;
  - O valor da tensão é calculado pela função readVoltage
 ### Esquemático
-Esquemático divisor de tensão
+![Divisor de tensão](Images/divisor_tensao.png)
 
 ## Sensor de corrente
  - Foi utilizado o sensor ACS712-30A
@@ -47,7 +47,7 @@ Esquemático divisor de tensão
    - A5: Motor;
  - O valor da corrente é calculado pela função readCurrentSensor
 ###Esquemático
-Esquemático sensor de corrente
+![Sensor de corrente](Images/sensor_corrente.png)
 
 ## Motor
  - Será conectado aos pinos digitais 7 e 8;
@@ -67,7 +67,7 @@ Esquemático sensor de corrente
  - fiz uma nova implementação utilizando a biblioteca Wire e tratando o valor recebido do RTC com comunicação I2C;
 
 ## Ajuste fino
-Esquemático LDR
+![Ajuste fino](Images/LDR.png)
 
  - Para instalar os LDR's é preciso "escolher" quais serão os 2 LDR's da direita e quais serão da esquerda pois o calculo do ajuste fino será comparando os LDR's da direita com os da esquerda;
  - No momento da instalação é necessário verificar a direção do motor, pois no código assumi que a direção HIGH é para a direita e a direção LOW é para a esquerda;
