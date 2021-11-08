@@ -23,7 +23,6 @@
  - Foi utilizado a biblioteca dht11 para facilitar a leitura da umidade e temperatura;
  - O sensor dht11 está sendo lido no pino digital 9;
  - A leitura do sensor está dentro da função readSensors() que está sendo chamada dentro do loop;
-
 ### Esquemático
 
 
@@ -37,26 +36,28 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
    - A9: Fixo;
    - A10: Motor;
  - O valor da tensão é calculado pela função readVoltage
-## Esquemático
+### Esquemático
 Esquemático divisor de tensão
 
 ## Sensor de corrente
-Foi utilizado o sensor ACS712-30A
-Os sensores de corrente estão conectados nas entradas:
-A3: Tracker;
-A4: Fixo;
-A5: Motor;
-O valor da corrent é calculado pela função readCurrentSensor
-Esquemático
+ - Foi utilizado o sensor ACS712-30A
+ - Os sensores de corrente estão conectados nas entradas:
+   - A3: Tracker;
+   - A4: Fixo;
+   - A5: Motor;
+O valor da corrente é calculado pela função readCurrentSensor
+###Esquemático
 Esquemático sensor de corrente
 
 ## Motor
-Será conectado aos pinos digitais 7 e 8;
-É preciso testar para ver quantos pulsos será preciso para cada angulo, Os valores dos pulsos deverão ser colocados nas váriaveis:
-const int revolution15Degress = 100 // valores de exemplo
-const int revolution20Degress = 150
-const int revolution30Degress = 200
-const int revolution50Degress = 300
+ - Será conectado aos pinos digitais 7 e 8;
+ - É preciso testar para ver quantos pulsos será preciso para cada angulo, Os valores dos pulsos deverão ser colocados nas váriaveis:
+   '''
+   const int revolution15Degress = 100 // valores de exemplo
+   const int revolution20Degress = 150
+   const int revolution30Degress = 200
+   const int revolution50Degress = 300
+   '''
 Armazenamento de dados
 Foi utilizado o cartão SD para o armazenamento de dados;
 Foi utilizado o pino digital 4;
