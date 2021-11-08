@@ -45,19 +45,19 @@ Esquemático divisor de tensão
    - A3: Tracker;
    - A4: Fixo;
    - A5: Motor;
-O valor da corrente é calculado pela função readCurrentSensor
+ - O valor da corrente é calculado pela função readCurrentSensor
 ###Esquemático
 Esquemático sensor de corrente
 
 ## Motor
  - Será conectado aos pinos digitais 7 e 8;
  - É preciso testar para ver quantos pulsos será preciso para cada angulo, Os valores dos pulsos deverão ser colocados nas váriaveis:
-   '''
+   ```
    const int revolution15Degress = 100 // valores de exemplo
    const int revolution20Degress = 150
    const int revolution30Degress = 200
    const int revolution50Degress = 300
-   '''
+   ```
 Armazenamento de dados
 Foi utilizado o cartão SD para o armazenamento de dados;
 Foi utilizado o pino digital 4;
