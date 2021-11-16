@@ -66,8 +66,8 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
  - Foi utilizado o pino digital 4;
 
 ## RTC
- - Exclui a implementação utilizando a biblioteca de RTC;
- - fiz uma nova implementação utilizando a biblioteca Wire e tratando o valor recebido do RTC com comunicação I2C;
+ - Foi excluido a implementação utilizando a biblioteca de RTC;
+ - Foi realizado uma nova implementação utilizando a biblioteca Wire e tratando o valor recebido do RTC com comunicação I2C;
 
 ## Ajuste fino
 ![Ajuste fino](Images/LDR.PNG)
