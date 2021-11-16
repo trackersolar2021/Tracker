@@ -48,6 +48,7 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
    - A4: Fixo;
    - A5: Motor;
  - O valor da corrente é calculado pela função readCurrentSensor
+
 ###Esquemático
 ![Sensor de corrente](Images/corrente.PNG)
 ![Sensor de corrente1](Images/corrente2.PNG)
