@@ -39,7 +39,7 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
    - A10: Motor;
  - O valor da tensão é calculado pela função readVoltage
 ### Esquemático
-![Divisor de tensão](Images/Sensor de tensao.PNG)
+![Sensor de tensão](Images/Sensor de tensao.PNG)
 
 ## Sensor de corrente
  - Foi utilizado o sensor ACS712-30A
