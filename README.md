@@ -51,7 +51,6 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
  - O valor da corrente é calculado pela função readCurrentSensor
 ### Esquemático
 ![Sensor de corrente](Images/corrente.PNG)
-![Sensor de corrente1](Images/corrente2.PNG)
 
 ## Motor
  - Pinos de step, direção e enable são conectados aos pinos digitais 7, 8 e 10 respectivamente;
@@ -62,6 +61,8 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
    const int revolution30Degress = 200
    const int revolution50Degress = 300
    ```
+### Esquemático
+![Motor](Images/corrente2.PNG)
 ## Armazenamento de dados
  - Foi utilizado o cartão SD para o armazenamento de dados;
  - Foi utilizado o pino digital 4;
