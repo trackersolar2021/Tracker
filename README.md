@@ -16,6 +16,7 @@
  - RTC SLC = pino digital 21
  - Motor step = pino digital 7
  - Motor dir = pino digital 8
+ - Motor Enable = pino digital 10
  - LDR esquerda baixo = pino analógico A12
  - LDR esquerda topo = pino analógico A15
  - LDR direita baixo = pino analógico A13
@@ -53,7 +54,7 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
 ![Sensor de corrente1](Images/corrente2.PNG)
 
 ## Motor
- - Será conectado aos pinos digitais 7 e 8;
+ - Pinos de step, direção e enable são conectados aos pinos digitais 7, 8 e 10 respectivamente;
  - É preciso testar para ver quantos pulsos será preciso para cada angulo, Os valores dos pulsos deverão ser colocados nas váriaveis:
    ```
    const int revolution15Degress = 100 // valores de exemplo
