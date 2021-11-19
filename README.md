@@ -56,10 +56,18 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
  - Pinos de step, direção e enable são conectados aos pinos digitais 7, 8 e 10 respectivamente;
  - É preciso testar para ver quantos pulsos será preciso para cada angulo, Os valores dos pulsos deverão ser colocados nas váriaveis:
    ```
-   const int revolution15Degress = 100 // valores de exemplo
-   const int revolution20Degress = 150
-   const int revolution30Degress = 200
-   const int revolution50Degress = 300
+   const unsigned long leaveLimitSwitch1 = 10000; // solta fim de curso
+   const unsigned long revolution2Position = 128270; // posição 2
+   const unsigned long revolution3Position = 168918; // posição 3
+   const unsigned long revolution4Position = 54957; // posição 4
+   const unsigned long revolution5Position = 49497; // posição 5
+   const unsigned long revolution6Position = 113639; // posição 6
+   const unsigned long revolution7Position = 81425; // posição 7
+   const unsigned long arriveLimitSwitch2 = 10000; // bate fim de curso 2
+   const unsigned long leaveLimitSwitch2 = 5569; // solta fim de curso 2
+   const unsigned long leaveLimitSwitch2 = 10000; // solta fim de curso 2
+   const unsigned long restPosition = 256427; // posição de descanço
+   const unsigned long arriveLimitSwitch1= 400000; // posição inicial
    ```
 ### Esquemático
 ![Motor](Images/corrente2.PNG)
