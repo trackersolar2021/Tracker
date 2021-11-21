@@ -101,4 +101,4 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
 
  - LDR: https://www.filipeflop.com/universidade/kit-maker-arduino/projeto-10-sensor-de-luz-ambiente/
 
- - Projeto completo: https://www.dropbox.com/sh/pjw48whlda5b5aj/AAAHGorWxIQ7ePcbdcptORiXa?dl=0
+ - Artigo e dados: https://www.dropbox.com/sh/pjw48whlda5b5aj/AAAHGorWxIQ7ePcbdcptORiXa?dl=0
