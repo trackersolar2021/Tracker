@@ -29,32 +29,33 @@
 ### Esquemático
 ![esquematico_dht11](Images/DHT11.PNG)
 
-NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
+NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais.
 
 ## Sensor de Tensão
  - Foi utilizado um divisor de tensão que permite ler uma tensão de até 60V;
  - Para esse circuito foram utilizados um resistor de 220KΩ (R1) e um resistor de 20KΩ (R2);
  - Os sensores de tensão estão conectados nas entradas:
-   - A8: Tracker;
-   - A9: Fixo;
+   - A8: Painel fotovoltaico Tracker;
+   - A9: Painel fotovoltaico Fixo;
    - A10: Motor;
- - O valor da tensão é calculado pela função readVoltage
+ - O valor da tensão é calculado pela função readVoltage.
 ### Esquemático
 ![Sensor de tensao](Images/Sensordetensao.png)
 
 ## Sensor de corrente
  - Foi utilizado o sensor ACS712-30A
  - Os sensores de corrente estão conectados nas entradas:
-   - A3: Tracker;
-   - A4: Fixo;
+   - A3: Painel fotovoltaico Tracker;
+   - A4: Painel fotovoltaico Fixo;
    - A5: Motor;
- - O valor da corrente é calculado pela função readCurrentSensor
+ - O valor da corrente é calculado pela função readCurrentSensor.
 ### Esquemático
 ![Sensor de corrente](Images/corrente.PNG)
 
 ## Motor
  - Pinos de step, direção e enable são conectados aos pinos digitais 7, 8 e 10 respectivamente;
- - É preciso testar para ver quantos pulsos será preciso para cada angulo, Os valores dos pulsos deverão ser colocados nas váriaveis:
+ - É preciso testar para ver quantos pulsos será preciso para cada angulo;
+ - Os valores dos pulsos deverão ser colocados nas váriaveis:
    ```
    const unsigned long leaveLimitSwitch1 = 10000; // solta fim de curso
    const unsigned long revolution2Position = 128270; // posição 2
@@ -76,14 +77,13 @@ NÃO COLOCAR RESISTOR para o dht11 que só possui 3 terminais
  - Foi utilizado o pino digital 4;
 
 ## RTC
- - Foi excluido a implementação utilizando a biblioteca de RTC;
- - Foi realizado uma nova implementação utilizando a biblioteca Wire e tratando o valor recebido do RTC com comunicação I2C;
+ - Foi realizado implementação utilizando a biblioteca Wire e tratando o valor recebido do RTC com comunicação I2C;
 
 ## Ajuste fino
 ![Ajuste fino](Images/LDR.PNG)
 ![Ajuste fino](Images/LDR2.PNG)
 
- - Para instalar os LDR's é preciso "escolher" quais serão os 2 LDR's da direita e quais serão da esquerda pois o calculo do ajuste fino será comparando os LDR's da direita com os da esquerda;
+ - Para instalar os LDR's é preciso escolher quais serão os 2 LDR's da direita e quais serão da esquerda pois o calculo do ajuste fino será comparando os LDR's da direita com os da esquerda;
  - No momento da instalação é necessário verificar a direção do motor, pois no código assumi que a direção HIGH é para a direita e a direção LOW é para a esquerda;
 
 ## Referências
