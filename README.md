@@ -1,6 +1,6 @@
 # Tracker
 ## Circuito completo
-![TCC](Images/TCC.PNG)
+![TCC](Images/TCC2021.PNG)
 
 ## Pinos utilizados
  - DHT11 = pino digital 9
